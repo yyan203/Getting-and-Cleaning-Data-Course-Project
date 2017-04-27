@@ -4,7 +4,7 @@
 
 # use fast dtplyr package
 library(dtplyr)
-setwd(....mycomputer/data_incubator/uci_har_dataset)
+setwd(foo/uci_har_dataset)
 # create new folder: train+test to save all combined data
 if(!file.exists("./train+test")){dir.create("./train+test")}
 # concatenate train dat and test data into one combined data
